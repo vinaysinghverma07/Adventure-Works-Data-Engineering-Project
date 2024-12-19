@@ -12,15 +12,15 @@
 
 # Ignore all JENKINS_HOME except jobs directory, root xml config, and
 # .gitignore file.
-/*
-!/jobs
-!/.gitignore
-!/*.xml
+# /*
+#!/jobs
+# !/.gitignore
+# !/*.xml
 
 # Ignore all files in jobs subdirectories except for folders.
 # Note: git doesn't track folders, only file content.
-jobs/**
-!jobs/**/
+# jobs/**
+# !jobs/**/
 
 # Uncomment the following line to save next build numbers with config.
 
@@ -29,14 +29,14 @@ jobs/**
 # For performance reasons, we want to ignore builds in Jenkins jobs because it
 # contains many tiny files on large installations.  This can impact git
 # performance when running even basic commands like 'git status'.
-builds
-indexing
+# builds
+# indexing
 
 # Exclude only config.xml files in repository subdirectories.
-!config.xml
+# !config.xml
 
 # Don't track workspaces (when users build on the master).
-jobs/**/*workspace
+# jobs/**/*workspace
 
 # Security warning: If secrets are included with your configuration, then an
 # adversary will be able to decrypt all encrypted secrets within Jenkins
