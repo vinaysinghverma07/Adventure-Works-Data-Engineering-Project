@@ -1,0 +1,6 @@
+selected resource name:		DynamicGitToRaw
+selected resource type:		pipeline
+factory name:			adf-aw-project-vinay
+factory location:		eastus
+subscription id:		subscription id
+time of download (UTC):		Fri, 03 Jan 2025 07:52:54 GMT

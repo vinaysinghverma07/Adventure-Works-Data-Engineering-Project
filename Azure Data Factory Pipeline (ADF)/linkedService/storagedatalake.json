@@ -1,0 +1,13 @@
+{
+    "name": "storagedatalake",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "description": "storagedatalake adlsgen2",
+        "annotations": [],
+        "type": "AzureBlobFS",
+        "typeProperties": {
+            "url": "https://awstorageyourstorageaccountname.dfs.core.windows.net/",
+            "encryptedCredential": "yourencryptedcredentialscreatedusingMicrosoftEntraID"
+        }
+    }
+}

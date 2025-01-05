@@ -1,0 +1,32 @@
+{
+    "name": "ds_git_dynamic_url",
+    "properties": {
+        "description": "dataset_git_dynamic_url",
+        "linkedServiceName": {
+            "referenceName": "httplinkedservice_for_git",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "p_relative_url": {
+                "type": "String"
+            }
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation",
+                "relativeUrl": {
+                    "value": "@dataset().p_relative_url",
+                    "type": "Expression"
+                }
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
