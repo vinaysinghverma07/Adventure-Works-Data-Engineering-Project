@@ -1,7 +1,7 @@
 # Adventure-Works-Data-Engineering-Project
 
 ## Description
-Hey, This project demonstrates a data engineering pipeline for handling Adventure-works-datasets. The pipeline leverages Azure services like **Azure Data Factory (ADF)**, **Azure Data Lake Storage Gen2 (ADLS Gen2)**, **Databricks** & **Azure Synapse Analytics** for seamless ingestion, transformation and storage of data in **bronze, silver, and Gold** layers (Using Medallion Architecture) and creating views/tables. The processed data can then be used for advanced analytics and reporting.
+This project demonstrates a data engineering pipeline for handling Adventure-works-datasets. The pipeline leverages Azure services like **Azure Data Factory (ADF)**, **Azure Data Lake Storage Gen2 (ADLS Gen2)**, **Databricks** & **Azure Synapse Analytics** for seamless ingestion, transformation and storage of data in **bronze, silver, and Gold** layers (Using Medallion Architecture) and creating views/tables. The processed data can then be used for advanced analytics and reporting.
 
 ---
 ## Features
